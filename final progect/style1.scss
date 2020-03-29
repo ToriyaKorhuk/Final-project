@@ -1,0 +1,13 @@
+$color_new: pink;
+
+header{
+    .top_header{
+        .menu{
+            li{
+                a{
+                    color: $color_new;
+                }
+            }
+        }
+    }
+}

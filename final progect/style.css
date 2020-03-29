@@ -1,0 +1,801 @@
+@import url(//db.onlinewebfonts.com/c/adf3f0265540f4dbb4062547c82f8a7e?family=Snell);
+@font-face {font-family: "Snell"; src: url("//db.onlinewebfonts.com/t/adf3f0265540f4dbb4062547c82f8a7e.eot"); src: url("//db.onlinewebfonts.com/t/adf3f0265540f4dbb4062547c82f8a7e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/adf3f0265540f4dbb4062547c82f8a7e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/adf3f0265540f4dbb4062547c82f8a7e.woff") format("woff"), url("//db.onlinewebfonts.com/t/adf3f0265540f4dbb4062547c82f8a7e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/adf3f0265540f4dbb4062547c82f8a7e.svg#Snell") format("svg"); } 
+@import url(//db.onlinewebfonts.com/c/8c6e60a2d64723ba72bd581ada7aba83?family=GothamBold);
+@font-face {font-family: "GothamBold"; src: url("//db.onlinewebfonts.com/t/8c6e60a2d64723ba72bd581ada7aba83.eot"); src: url("//db.onlinewebfonts.com/t/8c6e60a2d64723ba72bd581ada7aba83.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8c6e60a2d64723ba72bd581ada7aba83.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8c6e60a2d64723ba72bd581ada7aba83.woff") format("woff"), url("//db.onlinewebfonts.com/t/8c6e60a2d64723ba72bd581ada7aba83.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8c6e60a2d64723ba72bd581ada7aba83.svg#GothamBold") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/adf3f0265540f4dbb4062547c82f8a7e?family=Snell);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+    display: block;
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+.top_header{
+    background-color: #0a1720;
+    z-index: 1;
+    width:100%;
+    height: 120px;
+}
+
+.top_header img{
+    text-align: center;
+    z-index: 62;
+    padding-top: 28px;
+    margin-left: 128px;
+    padding-bottom: 55px;
+}
+.top_header .menu{
+	clear: both;
+    float: right;
+    position: relative;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+
+.top_header .menu li{
+    display: inline-block;
+    border-right:  #b5b5b5;
+
+}
+ 
+.top_header .menu li a{
+	font-size: 16px;
+	text-transform: uppercase;
+    font-family: "Sitka";
+    color: #b5b5b5;
+    text-align: right;
+    top: 25px;
+    z-index: 68;
+    border-right: 1px solid;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.top_header .menu li a:hover{
+    background-color: #ff467f;
+    color: beige;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.carousel-control-prev, .carousel-control-next{  
+    position: relative;   
+    background-color:#6b7a67 ;
+    width: 70px !important;
+    height: 65px ;
+    z-index: 1;
+    color: #fff;
+    opacity: .5;
+    float: right;
+    margin-top: 35%;
+}
+.carousel-control-next span{  
+    background-image: url(./images/right.png);
+
+}
+.carousel-control-prev span{
+    background-image: url(./images/if_icon-ios7-arrow-down_211687.png);
+
+
+}
+
+.text_header{
+    display: block;
+    height: 200px;
+    width: 400px;
+    background-color:#6b7a67 ;
+    position: relative;
+    z-index: 101;
+    float: right;
+    margin-top: 8%;
+    opacity: .7;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: -15%;
+}
+.text_header p{
+    font-size: 24px;
+    font-family: "Sitka";
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+    text-align:left;
+    z-index: 14;
+
+}
+.text_header span{
+    font-size: 14px;
+    font-family: "Sitka";
+    color: rgb(255, 255, 255);
+
+}
+.container2{
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+.oval{
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    -webkit-clip-path: circle(50% at center center);
+            clip-path: circle(50% at center center);
+    background-color: #ff467f;
+    margin-left: 45%;
+    margin-top: -4%;
+}
+.oval img {
+    vertical-align: middle;
+    border-style: none;
+    padding-top: 25%;
+}
+.center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.container-fluid{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+.grooma h3, .bride h3{
+    font-size: 68px;
+    font-family: "Snell";
+     color: #212020;
+
+}  
+.grooma p, .bride p{
+    font-size: 24px;
+    font-family: "Sitka";
+     color: #212020;
+
+
+}
+.text-center .row {
+    display: inline;
+    text-align: center;
+}
+.bride img{
+    padding-top: 18%;
+}
+.are{
+    margin-top: 5%;
+    font-size: 24px;
+    font-family: "Robotto Regular";
+     color: #ff467f;
+}
+.grooma{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: "Sitka";
+     color: #212020;
+}
+.imv{
+    margin-top: 5%;
+    font-size: 68px;
+    font-family: "Snell";/*ШРИФТ*/
+    
+}
+.we{
+    margin-top: 5%;
+    font-size: 24px;
+    font-family: "Sitka";
+    color: #424142;
+
+}
+.sat{
+    margin-top: 5%;
+    font-size: 38px;
+    font-family: "Sitka";
+    color: #ff467f;
+
+}
+.may{
+    margin-top: 5%;
+    font-size: 48px;
+    font-family: "Robotto Regular";
+    color: #212020;
+
+}
+.thomas{
+    margin-top: 5%;
+    font-size: 24px;
+    font-family: "Sitka";
+    color: #212020;
+
+}
+.container2 button{
+    outline: none;
+    text-decoration: none;
+    background-color: rgb(255, 70, 127);
+    -webkit-box-shadow: 4.092px 4.388px 14px 0px rgba(88, 88, 88, 0.73);
+            box-shadow: 4.092px 4.388px 14px 0px rgba(88, 88, 88, 0.73);
+    width: 219px;
+        height: 69px;
+        z-index: 32;
+        font-size: 40px;
+        font-family: "Sitka";
+        color: rgb(255, 255, 255);
+        line-height: 0.7;
+        text-align: center;
+        border: none;
+
+       
+
+          
+}
+  .container2 button:hover {
+background-color: #721531ce;
+-webkit-animation: bounce 1s;
+        animation: bounce 1s;
+
+
+}
+ 
+.container3{
+    height: 600px;
+    background-color: #252527;
+    text-align: center;
+}
+
+
+.container3 .owl-carousel .owl-item img{
+
+        display: block;
+        width: auto;
+        height: 310px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+color: #ffffff;
+}
+.owl-theme .owl-nav{
+    background-color: #923b57;
+    opacity: 0.5;
+    display: block;
+    width: 60px;
+    margin-top: 10px;
+    padding-right: 0;
+    margin: 0 auto;
+
+}
+.owl-theme .owl-nav span{
+    color: #f7f7f8;
+
+}
+.container3 .row{
+    display: inline-block;
+    margin-right: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.container3 .row{
+    padding: 2% 0 2% 0;
+
+}
+
+.container3 h6{
+    text-align: center;
+        font-size: 45px;
+        font-family: "Sitka";
+        color: rgb(255, 255, 255);
+        padding-top: 5%;
+}
+.container5{
+    width: 100%;
+    height: 950px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.container5 .news img{
+    text-align: center;
+}
+.container5 h4{
+        font-size: 56px;
+        font-family: "Sitka";
+        color: rgb(41, 40, 41);
+        text-align: center;
+        padding-top: 55px;
+      
+}
+.container5 h5{
+        font-size: 24px;
+        font-family: "Sitka";
+        color: rgb(44, 44, 44);
+        text-align: center;
+       
+      
+}
+.container5 .news{
+    text-align: center;
+
+}
+.container5 .brides{
+    text-align: left;
+}
+.container5 .brides img{
+    margin-top: 5%;
+    width: 95%;
+    text-align: left;
+  
+}
+.container5 .txt{
+    display: block;
+    height: 39%;
+    width: 63%;
+    background-color: #fff;
+    z-index: 101;
+    position: relative;
+    float: right;
+    margin-top: -46%;
+}
+.h{
+    text-align: left;
+    margin-left:10% ;
+    margin-top: 5%;
+}
+.container5 .rowone{
+    margin-top: 15%;
+}
+.container5 .h h5{
+        font-size: 24px;
+        font-family: "Roboto";
+        color: rgb(56, 55, 55);
+        text-align: left;
+        
+}
+.container5 .h h2{
+        font-size: 24px;
+        font-family: "Sitka";
+        color: rgb(255, 70, 127);
+    
+}
+.container5 .h h3{
+        font-size: 24px;
+        font-family: "Sitka";
+        color: rgb(44, 44, 44);
+
+      
+}
+.container5 .flow{
+    display: inline-block;
+    width: 240px;
+    height: 220px;
+    float: right;
+   position: relative;
+z-index: 99;
+
+}
+.container5 .flow img{
+        margin-top: -65%;
+}
+.container6 {
+    background-image: -webkit-linear-gradient( -80deg, rgb(249, 250, 252 )60% , #ffffff, rgb(252, 252, 252),
+    rgb(247, 247, 247), rgb(250, 250, 250), #f7f7f8, rgb(153, 30, 112) 60%,
+    rgba(153, 30, 71, 0.8),#991e57e5 );
+    border-radius: 40% 15% 0 0;
+
+        
+}
+.container6 .end{
+    text-align: center;
+        font-size: 30px;
+        font-family: "Sitka";
+        color: rgb(43, 43, 43);
+    
+      
+}
+.container6 .flex-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 875;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+
+}
+
+
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.container6 .rowone{
+    text-align: center;
+}
+
+
+input[type=submit] {
+    width: 172px;
+    height: 56px;
+    background-color: rgb(255, 70, 127);
+    -webkit-box-shadow: 4.092px 4.388px 14px 0px rgba(88, 88, 88, 0.73);
+            box-shadow: 4.092px 4.388px 14px 0px rgba(88, 88, 88, 0.73);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Sitka";
+    
+}
+
+input[type=submit]:hover {
+    background-color: #31131c;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+    text-decoration: none;
+border: none;
+}
+#rowone{
+    display: block;
+    text-align: center;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 2.735px 6.444px 40px 0px rgba(69, 69, 69, 0.35);
+            box-shadow: 2.735px 6.444px 40px 0px rgba(69, 69, 69, 0.35);
+
+}
+.container p{
+        font-size: 43px;
+        font-family: "Sitka";
+        color: rgb(255, 70, 127);
+        text-align: center;
+
+}
+.row1{
+        border-radius: 17px;
+        background: #ffffff;
+        margin-top: 100px;
+        margin-bottom: 70px;
+        
+    
+          
+}
+.e-mail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 20px;
+}
+#fname, #lname, #subject{
+      background-color: #eaeaeb;
+    width: 518px;
+    height: 65px;
+    font-size: 23px;
+    font-family: "Sitka";
+    border: none;
+    margin-left: 20px;
+}
+#subject{
+    padding-top: 0;
+    width: 95%;
+    height: 320PX;
+    resize: none;
+    margin-bottom: 100px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.container6 .flexbox{
+    margin-top: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 20px;
+
+
+}
+.container6 .flexbox .addres{
+    margin-left: 30px;
+    width: 325px;
+    text-align: left;
+    position: relative; 
+    border-right: 1px solid;
+    border-color: #fff;
+}
+.container6 .flexbox .addres h6{
+        font-size: 22px;
+        font-family: "Sitka";
+        color: rgb(255, 255, 255);
+ }
+ .container6 .flexbox p, .flexbox a{
+        font-size: 14px;
+        font-family: "Sitka";
+        color: rgb(252, 203, 218);
+        text-align: left;
+        line-height: 1.6;
+      
+      
+ }
+ .container6 .qwe{
+     width: 240px;
+     height: 52px;
+     background-color: #ffffff;
+
+ }
+ .container6 .qwer{
+    width: 80px;
+    height: 52px;
+    background-color:#4946ff;
+    font-size: 18px;
+    font-family: "Sitka";
+    color: rgb(255, 255, 255);
+border: none;
+      
+ }
+ .container6 .qwer:hover{
+     background-color: #a00b38;
+ }
+
+ .container6 .icons img{
+     margin-right: 10px;
+ }
+ 
+
+
+      
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 1024px){
+    .top_header img{
+        margin-left: 5%;
+        margin-top: 0;
+        margin-bottom: 25%;
+    }
+    .text{
+        width:50%;
+        height: 50%;
+    }
+    .top_header .menu{
+        display: none;
+    }
+	 .top_header .show{
+		display: block;
+	}
+   .top_header .burger{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	background-color:#a13354;
+}
+ .top_header .burger i{
+	display: block;
+	width: 40px;
+	height: 4px;
+	margin:5px;
+	background-color:#302527;
+}
+}
+
+@media(max-width: 768px) {
+.center{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+}
+.container2{
+    width: 100%;
+}
+
+.container2 img{
+    width: 50%;
+}
+.text-center{
+    font-size: 0px;
+}
+.container5{
+    height: 757px;
+}
+.container6 .flex-container{
+
+
+max-width: 72%;}
+
+
+}
+@media(max-width: 800px) {
+
+    .container2{
+        width: 100%;
+    }
+    .container2 img{
+        width: 50%;
+    }
+    .text-center{
+        font-size: 0px;
+    }
+    .container5{
+        height: 757px;
+    }
+    #fname, #lname, #subject {
+        background-color: #eaeaeb;
+        width: 304px;
+        height: 58px;
+        font-size: 20px;
+        font-family: "Sitka";
+        border: none;
+    }
+    }
+@media(max-width: 425px){
+        .top_header {
+           height: 97px;
+        }
+        .carousel-control-prev, .carousel-control-next {
+           height: 30px;
+        }
+        .text_header{
+           
+            width: 245px;
+            height: 110px;
+            float: right;
+            margin-right: -138px;
+        }
+        .text_header p{
+            font-size: 20px;
+        }
+        .text_header span{
+            font-size: 10px;
+        }
+        .center p{
+            font-size: 10px;
+            
+        }
+        .center h3{
+            font-size: 12px;
+        }
+        .center img{
+            width: 40%;
+        }
+       .container2 button{
+        outline: none;
+        text-decoration: none;
+        background-color: rgb(255, 70, 127);
+        -webkit-box-shadow: 4.092px 4.388px 14px 0px rgba(88, 88, 88, 0.73);
+                box-shadow: 4.092px 4.388px 14px 0px rgba(88, 88, 88, 0.73);
+        width: 65px;
+        height: 34px;
+        z-index: 32;
+        font-size: 15px;
+        font-family: "Sitka";
+        color: rgb(255, 255, 255);
+        line-height: 0.7;
+        text-align: center;
+        border: none
+       }
+       .oval{
+           display: none;
+       }
+       .container2{
+        height: 200px;
+
+       }
+      .owl-carousel .owl-stage-outer{
+
+       margin-left: 19px;
+}
+.container5 h4{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.container5 h5{
+    font-size: 10px;
+}
+.container5 .h h5,.container5 .h h2,.container5 .h h3{
+    font-size: 10px;
+
+ }
+ .container5 .flow img{
+     margin-top: 0;
+ }
+ .container5 .submit{
+     width: 50%;
+ }
+ .container5{
+    height: 534px;
+
+ }
+}
+
+
+.carousel-inner .carousel-item.active,.carousel-inner .carousel-item-next,.carousel-inner .carousel-item-prev{display:flex}
+.carousel-inner .carousel-item-right.active,.carousel-inner .carousel-item-next{transform:translateX(25%)}
+.carousel-inner .carousel-item-left.active,.carousel-inner .carousel-item-prev{transform:translateX(-25%)}
+.carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0)}
+
+
+
+
+
+
